@@ -1,0 +1,259 @@
+.rooms h2 {
+    text-align: center
+}
+
+.rooms h2 a {
+    color: black;
+    text-decoration: none
+}
+
+.rooms h2 a:hover {
+    text-decoration: underline
+}
+
+.rooms .dice-tray {
+    margin: 0em 0.5em
+}
+
+.rooms .dice-tray img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+    touch-action: manipulation
+}
+
+.rooms .playerPrefs {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0.5em 0
+}
+
+.rooms .playerPrefs input {
+    width: 8em;
+    margin: 0.5em 0 0.5em 0
+}
+
+.rooms .playerPrefs .diceSetChoice {
+    margin: 0 0 0 auto
+}
+
+.rooms .playerPrefs .diceSetChoice label {
+    display: inline;
+    margin: 0.5em 0 0.5em 0
+}
+
+.rooms .playerPrefs .diceSetChoice select {
+    display: inline;
+    margin: 0.5em 0 0.5em 0
+}
+
+.rooms #dicePreviewDiv {
+    margin: 1em 0;
+    border: 1px solid grey;
+    padding: 1em;
+    min-height: 56px;
+    background: #ccc;
+    background: linear-gradient(#ccc, #e9e9e9 45%, #f0f0f0 50%, #e9e9e9 55%, #bbb);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap
+}
+
+.rooms #dicePreviewDiv img {
+    margin: 4px 2px;
+    display: block;
+    touch-action: manipulation
+}
+
+.rooms #dicePreviewDiv .hidden-die {
+    display: none
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: auto;
+    padding: 15px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 480px
+}
+
+@media (max-width: 350px) {
+    body {
+        width:300px
+    }
+}
+
+body input {
+    margin: 0.5em 0em;
+    touch-action: manipulation
+}
+
+p,ol,ul,td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px
+}
+
+pre {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px
+}
+
+a {
+    color: #000
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: black;
+    background: #F9EDED
+}
+
+th {
+    padding-bottom: 5px
+}
+
+td {
+    padding: 0 5px 7px
+}
+
+div.field,div.actions {
+    margin-bottom: 10px
+}
+
+#notice {
+    color: green
+}
+
+.field_with_errors {
+    padding: 2px;
+    background-color: red;
+    display: table
+}
+
+#error_explanation {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px 7px 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0
+}
+
+#error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    background-color: #c00;
+    color: #fff
+}
+
+#error_explanation ul li {
+    font-size: 12px;
+    list-style: square
+}
+
+label {
+    display: block
+}
+
+#roomSkillChecksDiv {
+    display: flex;
+    flex-direction: column
+}
+
+#roomSkillChecksDiv .diceSides img {
+    padding: 0 2px 1px 2px
+}
+
+#roomSkillChecksDiv .interpretedResults img {
+    padding: 0 2px 0 0;
+    vertical-align: -4px
+}
+
+#roomSkillChecksDiv .skillRow {
+    display: flex;
+    align-items: center;
+    padding: 6px 0 6px 0;
+    border-top-style: solid;
+    border-color: grey;
+    border-width: 1px
+}
+
+#roomSkillChecksDiv .userName {
+    display: flex;
+    text-align: center;
+    padding: 0 5px 0 0
+}
+
+#roomSkillChecksDiv .userName span {
+    width: 80px;
+    overflow-wrap: break-word
+}
+
+#roomSkillChecksDiv .skillData {
+    display: flex;
+    flex-direction: column;
+    font-family: "arial", sans-serf;
+    font-size: 18px
+}
+
+#roomSkillChecksDiv .dieRollTitle {
+    font-weight: bold
+}
+
+#roomSkillChecksDiv .dieRollSum {
+    display: block;
+    padding: 0 0 4px 0
+}
+
+#roomSkillChecksDiv .dieRollSet {
+    padding: 0 1em 0 0;
+    line-height: 110%;
+    display: inline-block
+}
+
+.welcome .centered {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    position: relative
+}
+
+.welcome .centered img,.welcome .centered form,.welcome .centered p,.welcome .centered h1,.welcome .centered a {
+    align-self: center
+}
+
+.welcome .centered form {
+    margin-top: 10px
+}
+
+.welcome .centered a:hover img {
+    background-color: none;
+    display: block
+}
+
+.welcome .centered a:link img {
+    background-color: none;
+    display: block
+}
+
+.welcome .error {
+    margin: 0;
+    color: red
+}
+
+.welcome .about {
+    position: absolute;
+    align-self: flex-end
+}
